@@ -14,7 +14,7 @@
 		$mail->SMTPSecure = 'ssl'; // tls or ssl
 		$mail->Port     = "465";
 		$mail->Username = "gopieeki@gmail.com";
-		$mail->Password = "eeki@2020";
+		$mail->Password = "******";
 		$mail->Host     = "smtp.gmail.com";
 		$mail->Mailer   = "smtp";
 		$mail->SetFrom("gopieeki@gmail.com", "EEKI Super Admin");
@@ -52,7 +52,7 @@ function sendNotif($usermail,$username,$pass)
 		$mail->SMTPSecure = 'ssl'; // tls or ssl
 		$mail->Port     = "465";
 		$mail->Username = "gopieeki@gmail.com";
-		$mail->Password = "eeki@2020";
+		$mail->Password = "******";
 		$mail->Host     = "smtp.gmail.com";
 		$mail->Mailer   = "smtp";
 		$mail->SetFrom("gopieeki@gmail.com", "EEKI Super Admin");
@@ -89,7 +89,7 @@ function sendUpdateNotif($usermail,$username,$pass)
 			$mail->SMTPSecure = 'ssl'; // tls or ssl
 			$mail->Port     = "465";
 			$mail->Username = "gopieeki@gmail.com";
-			$mail->Password = "eeki@2020";
+			$mail->Password = "******";
 			$mail->Host     = "smtp.gmail.com";
 			$mail->Mailer   = "smtp";
 			$mail->SetFrom("gopieeki@gmail.com", "EEKI Super Admin");
@@ -125,7 +125,7 @@ function sendFarmNotif($usermail,$username,$pass)
 					$mail->SMTPSecure = 'ssl'; // tls or ssl
 					$mail->Port     = "465";
 					$mail->Username = "gopieeki@gmail.com";
-					$mail->Password = "eeki@2020";
+					$mail->Password = "******";
 					$mail->Host     = "smtp.gmail.com";
 					$mail->Mailer   = "smtp";
 					$mail->SetFrom("gopieeki@gmail.com", "EEKI Super Admin");
@@ -161,7 +161,7 @@ function sendFarmUpdateNotif($usermail,$username,$pass)
 							$mail->SMTPSecure = 'ssl'; // tls or ssl
 							$mail->Port     = "465";
 							$mail->Username = "gopieeki@gmail.com";
-							$mail->Password = "eeki@2020";
+							$mail->Password = "*******";
 							$mail->Host     = "smtp.gmail.com";
 							$mail->Mailer   = "smtp";
 							$mail->SetFrom("gopieeki@gmail.com", "EEKI Super Admin");
